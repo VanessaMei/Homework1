@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-
-<html>
-<head>
-</head>
-<body>
+<form> 
+<h3> Log in </h3>
+<Form target = "...">
 <Label target = "First name"> First name </label>
 <input type = "text"> </input>
 <Label target = "Last name"> Last name </label>
@@ -13,8 +11,16 @@
   <option> Male </option>
   <option> Female </option>
 </select>
-<input type = "radio" name = "pet"> dog </input>
-<input type = "radio" name = "pet"> cat </input>
+<input type = "radio" name = "level"> Grade 10 </input>
+<input type = "radio" name = "level"> Grade 11 </input>
+<input type = "radio" name = "level"> Grade 12 </input>
+<input type = "checkbox" name = "pet"> dog </input>
+<input type = "checkbox" name = "pet"> cat </input>
+<input type = "checkbox" name = "pet"> mouse </input>
+<input type = "checkbox" name = "pet"> others </input>
+
+<textarea> 
+
 
 </body>
 </html>
